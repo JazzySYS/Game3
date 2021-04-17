@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4102376479910671254}
   - component: {fileID: 4102376479910671249}
   - component: {fileID: 4102376479910671248}
+  - component: {fileID: -1155224404445568345}
   m_Layer: 9
   m_Name: Text Trigger
   m_TagString: Untagged
@@ -313,3 +314,15 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &-1155224404445568345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4102376479910671251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d517829457da30c4cb776a8225060ee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
