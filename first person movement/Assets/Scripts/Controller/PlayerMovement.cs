@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
 
 	public CharacterController cont;
 
-	public float speed = 12f;
+	public float speed = 16f;
 	public float gravity = 9.81f;
 
 	public float jumpCount;
@@ -32,6 +32,11 @@ public class PlayerMovement : MonoBehaviour
     	if(isGrounded && velocity.y < 0){
     		velocity.y = -0.25f;
     	}
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = 24f;
+        }
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
@@ -60,6 +65,11 @@ public class PlayerMovement : MonoBehaviour
     		velocity.y = jumpHeight;
     		jumpCount = jumpCount - 1f;
     	}
+
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            speed = 16f;
+        }
     }
 
     void OnCollisionEnter(Collision CollisionInfo){
