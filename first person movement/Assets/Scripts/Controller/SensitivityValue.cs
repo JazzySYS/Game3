@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Sensitivity : MonoBehaviour
+public class SensitivityValue : MonoBehaviour
 {
     public Slider sensitivity;
-    public static float sensVal;
+    public static float sensVal = 300f;
 
     public void Update()
     {
-        sensVal = sensitivity.value;
+            sensVal = sensitivity.value;
     }
 }
