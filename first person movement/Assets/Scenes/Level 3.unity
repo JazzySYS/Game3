@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-71340
+  m_Name: pb_Mesh28228
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -717,6 +717,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 631026570}
     m_Modifications:
+    - target: {fileID: 3853320800819774767, guid: 049af2f8766181b46ad90552d3678993, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.4000015
+      objectReference: {fileID: 0}
     - target: {fileID: 7903560540231091712, guid: 049af2f8766181b46ad90552d3678993, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1150,7 +1154,7 @@ GameObject:
   - component: {fileID: 1095164183}
   - component: {fileID: 1095164182}
   - component: {fileID: 1095164181}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
